@@ -9,6 +9,8 @@ chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
+mobile_emulation = { "deviceName": "Nexus 5" }
+chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
 driver = webdriver.Chrome('/your/path/for/chromedriver',chrome_options=chrome_options) #If you use Windows you must add .exe
 
 i = 0
