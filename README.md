@@ -1,7 +1,7 @@
 # TikTok-Views-Bot
 ![View Count](https://counter.gofiber.io/badge/NoNameoN/TikTok-Follow-Heart-Views-Bot/)
 
-# UPDATE -> VIEWS AVIABLE <- UPDATE
+# UPDATE -> VIEWS AVIABLE(500) <- UPDATE
 *To receive updates click on 'watch'*
 
 ## If you never used Python/Selenium and you don't know how to use my bot click [here](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/issues/5#issuecomment-737041402) i did a free guide
@@ -35,12 +35,10 @@ Start the bot with `python TikTok-Views-Follow-Heart-Bot.py` and insert the Capt
 - Developer's WebSite: https://nonameon.altervista.org
 
 # Donation
-PayPal: https://www.paypal.me/nonameon
-
-BTC: 3QUVoehMFEnaAtRPHC9aRG85CdaNJx43Yd
-
-ALGO: 6PYP5RWP547FYH6W2FZMI4A5Q6VWSXI3RE2BIEU5LWKFRVG3VX75YTVNEI
-
-ETH: 0x07EBAb381b30f164Bb84c94919a8BC9BfF3b5Ec3
-
-LTC: MViaTiPCgCd4ff8uvXfpXJsNY4q8pRrRX9
+|Method|Address|
+|--|--|
+|**PayPal**|https://www.paypal.me/nonameon|
+|**BTC**|3QUVoehMFEnaAtRPHC9aRG85CdaNJx43Yd|
+|**ALGO**|6PYP5RWP547FYH6W2FZMI4A5Q6VWSXI3RE2BIEU5LWKFRVG3VX75YTVNEI|
+|**ETH**|0x07EBAb381b30f164Bb84c94919a8BC9BfF3b5Ec3|
+|**LTC**|MViaTiPCgCd4ff8uvXfpXJsNY4q8pRrRX9| 
