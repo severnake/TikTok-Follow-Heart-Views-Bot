@@ -1,7 +1,7 @@
 # TikTok-Views-Bot
 ![View Count](https://counter.gofiber.io/badge/NoNameoN/TikTok-Follow-Heart-Views-Bot/)
 
-# UPDATE -> VIEWS AVIABLE(500) <- UPDATE
+# UPDATE -> VIEWS AVIABLE(500) and FIRST COMMENT LIKES <- UPDATE
 *To receive updates click on 'watch'*
 
 ## If you never used Python/Selenium and you don't know how to use my bot click [here](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/issues/5#issuecomment-737041402) i did a free guide
