@@ -154,5 +154,3 @@ elif bot == 3:
     loop3()
 else:
     loop4()
-    pass
-
