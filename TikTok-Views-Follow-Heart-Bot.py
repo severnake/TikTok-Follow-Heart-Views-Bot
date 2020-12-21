@@ -1,3 +1,4 @@
+
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import pyfiglet
@@ -9,9 +10,7 @@ chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-mobile_emulation = { "deviceName": "Nexus 5" }
-chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
-driver = webdriver.Chrome('/your/path/for/chromedriver',chrome_options=chrome_options) #If you use Windows you must add .exe
+driver = webdriver.Chrome('/home/nonameon/Documenti/Coding/chromedriver',chrome_options=chrome_options)
 
 i = 0
 
@@ -31,15 +30,17 @@ def loop1():
         driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/div/button").click()
         sleep(2)
         driver.find_element_by_xpath("//*[@id=\"c2VuZC9mb2xsb3dlcnNfdGlrdG9V\"]/div[1]/div/form/button").click()
+	sleep(10)
         driver.refresh()
         i += 1
-        total = i * 1000
+        total = i * 500
         print("Views success delivered! Total", total,"views")
-        sleep(55)
+        sleep(60)
         loop1()
     except:
         print("An error occured. Now will retry again")
         driver.refresh()
+	sleep(20)
         loop1()
 
 def loop2():
@@ -72,7 +73,30 @@ def loop2():
         loop2()
 
 def loop3():
-    pass
+    sleep(10)
+    try:
+        driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[3]/div/button").click()
+    except:
+        print("You didn't solve the captcha yet. Need to refresh to avoid endless loop.")
+        driver.refresh()
+        loop2()
+    try:
+        sleep(2)
+        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/form/div/input").send_keys(vidUrl)
+        sleep(1)
+        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/form/div/div/button").click()
+        sleep(5)
+        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/div/div[1]/div/form/button").click()
+        sleep(5)
+        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/div/form/ul/li/div/button").click()
+        sleep(47)
+        driver.refresh()
+        loop3()
+    except:
+        print("An error occured. Now will retry again")
+        driver.refresh()
+        sleep(50)
+        loop3()
 
 def loop4():
     sleep(20)
@@ -103,19 +127,19 @@ def loop4():
         sleep(wait_time)
         loop4()
 
-vidUrl = "https://www.tiktok.com/@social_degradation_crazy/video/6890937108874169601" #Change with one of your tiktok videos
+vidUrl = "https://www.tiktok.com/@social_degradation_crazy/video/6898692248968400130" #Change with one of your tiktok videos
 
 system("clear") #If you have Windows you can use cls
 tiktokbot = pyfiglet.figlet_format("NoNameoN", font="slant")
 print(tiktokbot)
 print("Author: https://github.com/NoNameoN-A")
-print("")
+print("https://www.tiktok.com/@social_degradation_crazy/video/6898692248968400130")
 
 """
 You can change auto value below
 auto = 1 for auto views OK
 auto = 2 for auto hearts OK
-auto = 3 for auto views + hearts InWork...
+auto = 3 for auto comments heart
 auto = 4 for auto followers OK
 """
 bot = 1 #Change this
@@ -127,7 +151,7 @@ if bot == 1:
 elif bot == 2:
     loop2()
 elif bot == 3:
-    pass
+    loop3()
 else:
     loop4()
     pass
