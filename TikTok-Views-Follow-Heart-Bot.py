@@ -137,9 +137,9 @@ print("https://www.tiktok.com/@social_degradation_crazy/video/689869224896840013
 
 """
 You can change auto value below
-auto = 1 for auto views OK
+auto = 1 for auto views(500) OK
 auto = 2 for auto hearts OK
-auto = 3 for auto comments heart
+auto = 3 for auto (FIRST) comments heart OK
 auto = 4 for auto followers OK
 """
 bot = 1 #Change this
