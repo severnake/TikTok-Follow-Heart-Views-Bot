@@ -32,7 +32,7 @@ Start the bot with `python TikTok-Views-Follow-Heart-Bot.py` and insert the Capt
 # Credits
 ### If you like my repo please release a star on the top (:
 - Repo: https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot
-- Developer's WebSite: https://nonameon.altervista.org
+- Developer's WebSite: https://www.autistici.org/nonameon
 
 # Donation
 |Method|Address|
