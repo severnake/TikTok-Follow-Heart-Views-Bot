@@ -1,5 +1,6 @@
 # TikTok-Views-Bot
 ![View Count](https://counter.gofiber.io/badge/NoNameoN/TikTok-Follow-Heart-Views-Bot/)
+<a href="https://twitter.com/NoNameoN_A" class="btn btn-twitter"><span class="icon"></span>Contact Me On Twitter</a>
 
 # UPDATE -> FIRST COMMENT LIKES <- UPDATE
 *To receive updates click on 'watch'*
