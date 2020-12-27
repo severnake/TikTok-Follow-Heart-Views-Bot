@@ -11,7 +11,7 @@
 ### Generic
 If you have problems you can create an issue on [issues section](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/issues).
 ### *TabError: inconsistent use of tabs and spaces in indentation*
-If you have this error try to download and use [this file](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/blob/main/Bot_For_Bugged.py), if you have else problems create an issue on [issues section](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/issues)
+If you have this error try to download and use [this file](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/blob/main/Bot_For_Bugged.py), if you have else problems create an issue on [issues section](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/issues). Look at the issue raised about it [here](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/issues/17).
 
 ### TikTok Views Bot and Followers
 
