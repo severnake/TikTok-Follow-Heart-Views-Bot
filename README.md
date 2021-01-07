@@ -1,4 +1,4 @@
-# TikTok-Views-Bot | Heart is now aviable!!! Use the bot!!!
+# TikTok-Views-Bot
 ![View Count](https://counter.gofiber.io/badge/NoNameoN/TikTok-Follow-Heart-Views-Bot/)
 
 ## UPDATE -> FIRST COMMENT LIKES <- UPDATE
