@@ -133,7 +133,7 @@ chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome('/home/nonameon/Documenti/Coding/chromedriver',chrome_options=chrome_options) #Change it
+driver = webdriver.Chrome('/path/to/your/chromedriver',chrome_options=chrome_options) #Change it
 
 driver.get("https://vipto.de/")
 
