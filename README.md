@@ -15,9 +15,7 @@ If you have this error try to download and use [this file](https://github.com/No
 
 ### TikTok Views Bot and Followers
 
-![Bot](https://github.com/NoNameoN-A/TikTok-Views-Follow-Bot/blob/main/Screenshot.png)
-
-![Bot](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/blob/main/bot.png)
+![Bot](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/blob/main/screenshot.png)
 
 # Requirements
 You must download selenium(You can use pip) and https://chromedriver.chromium.org/downloads
