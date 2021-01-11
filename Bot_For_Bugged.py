@@ -6,14 +6,6 @@ from os import system
 from time import sleep
 import sys
 
-chrome_options = webdriver.ChromeOptions()
-#chrome_options.add_argument('--headless')
-chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome('/home/nonameon/Documenti/Coding/chromedriver',chrome_options=chrome_options)
-
-i = 0
-
 def loop1():
     global i
     sleep(10)
@@ -30,7 +22,7 @@ def loop1():
         driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/div/button").click()
         sleep(2)
         driver.find_element_by_xpath("//*[@id=\"c2VuZC9mb2xsb3dlcnNfdGlrdG9V\"]/div[1]/div/form/button").click()
-        sleep(10)
+	sleep(10)
         driver.refresh()
         i += 1
         total = i * 500
@@ -40,7 +32,7 @@ def loop1():
     except:
         print("An error occured. Now will retry again")
         driver.refresh()
-        sleep(20)
+	sleep(20)
         loop1()
 
 def loop2():
@@ -91,6 +83,7 @@ def loop3():
         driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/div/form/ul/li/div/button").click()
         sleep(47)
         driver.refresh()
+	print "Liked :D"
         loop3()
     except:
         print("An error occured. Now will retry again")
@@ -127,22 +120,21 @@ def loop4():
         sleep(wait_time)
         loop4()
 
-vidUrl = "https://www.tiktok.com/@social_degradation_crazy/video/6898692248968400130" #Change with one of your tiktok videos
 
 system("clear") #If you have Windows you can use cls
-tiktokbot = pyfiglet.figlet_format("NoNameoN", font="slant")
-print(tiktokbot)
+print(pyfiglet.figlet_format("NoNameoN", font="slant"))
 print("Author: https://github.com/NoNameoN-A")
-print("https://www.tiktok.com/@social_degradation_crazy/video/6898692248968400130")
 
-"""
-You can change auto value below
-auto = 1 for auto views(500) OK
-auto = 2 for auto hearts OK
-auto = 3 for auto (FIRST) comments heart OK
-auto = 4 for auto followers OK
-"""
-bot = 1 #Change this
+vidUrl = raw_input("Insert your TikTok link: ")
+
+bot = input("What do you want to do?\n1 - Auto views(500)\n2 - Auto hearts\n3 - Auto (FIRST) comments heart\n4 - Auto followers\n5 - Simple reload\n")
+i = 0
+
+chrome_options = webdriver.ChromeOptions()
+#chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-dev-shm-usage')
+driver = webdriver.Chrome('/path/to/your/chromedriver',chrome_options=chrome_options) #Change it
 
 driver.get("https://vipto.de/")
 
@@ -152,5 +144,7 @@ elif bot == 2:
     loop2()
 elif bot == 3:
     loop3()
-else:
+elif bot == 4:
     loop4()
+else:
+    loop5()
