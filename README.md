@@ -1,7 +1,7 @@
 # TikTok-Views-Bot
 ![View Count](https://counter.gofiber.io/badge/NoNameoN/TikTok-Follow-Heart-Views-Bot/)
 
-## UPDATE -> FIRST COMMENT LIKES <- UPDATE
+## UPDATE -> NOW IS MORE SIMPLE <- UPDATE
 *To receive updates click on 'watch'*
 
 ## If you never used Python/Selenium and you don't know how to use my bot click [here](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/issues/5#issuecomment-737041402) i did a free guide
@@ -24,8 +24,8 @@ You must download selenium(You can use pip) and https://chromedriver.chromium.or
 
 # Usage
 1) Open Bot.py (or Bot_For_Bugged.py if you use it)
-2) Go to 53 line
-3) Change YOUR_URL to your Tik Tok video URL. This URL used to get views or hearts or both
+2) Go to 136 line
+3) Change */path/to/your/chromedriver* with your chromdriver path. Use the *.exe* extension if you are using Windows.
 You can close the file...
 
 # Start
