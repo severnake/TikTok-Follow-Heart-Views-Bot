@@ -83,6 +83,7 @@ def loop3():
         driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/div/form/ul/li/div/button").click()
         sleep(47)
         driver.refresh()
+	print "Liked :D"
         loop3()
     except:
         print("An error occured. Now will retry again")
