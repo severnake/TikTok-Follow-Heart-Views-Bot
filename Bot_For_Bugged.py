@@ -22,7 +22,7 @@ def loop1():
         driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/div/button").click()
         sleep(2)
         driver.find_element_by_xpath("//*[@id=\"c2VuZC9mb2xsb3dlcnNfdGlrdG9V\"]/div[1]/div/form/button").click()
-	sleep(10)
+        sleep(10)
         driver.refresh()
         i += 1
         total = i * 500
@@ -32,7 +32,7 @@ def loop1():
     except:
         print("An error occured. Now will retry again")
         driver.refresh()
-	sleep(20)
+        sleep(20)
         loop1()
 
 def loop2():
@@ -83,7 +83,7 @@ def loop3():
         driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/div/form/ul/li/div/button").click()
         sleep(47)
         driver.refresh()
-	print "Liked :D"
+        print("Liked :D")
         loop3()
     except:
         print("An error occured. Now will retry again")
