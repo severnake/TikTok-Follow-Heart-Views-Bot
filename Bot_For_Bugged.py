@@ -119,7 +119,11 @@ def loop4():
         driver.refresh()
         sleep(wait_time)
         loop4()
-
+def loop5():
+    sleep(1000)
+    driver.refresh()
+    print("Reload")
+    loop5()
 
 system("clear") #If you have Windows you can use cls
 print(pyfiglet.figlet_format("NoNameoN", font="slant"))
