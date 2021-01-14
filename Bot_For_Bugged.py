@@ -129,7 +129,7 @@ system("clear") #If you have Windows you can use cls
 print(pyfiglet.figlet_format("NoNameoN", font="slant"))
 print("Author: https://github.com/NoNameoN-A")
 
-vidUrl = input(r"Insert your TikTok link: ")
+vidUrl = "YOUR TIKTOK VIDEO" #Change it
 
 bot = input("What do you want to do?\n1 - Auto views(500)\n2 - Auto hearts\n3 - Auto (FIRST) comments heart\n4 - Auto followers\n5 - Simple reload\n")
 i = 0
