@@ -125,11 +125,9 @@ def loop5():
     print("Reload")
     loop5()
 
-system("clear") #If you have Windows you can use cls
-print(pyfiglet.figlet_format("NoNameoN", font="slant"))
 print("Author: https://github.com/NoNameoN-A")
 
-vidUrl = "YOUR TIKTOK VIDEO" #Change it
+vidUrl = " OPEN THE FILE Bot_For_Bugged.py AND INSERT YOUR TIKTOK LINK ON LINE 132" #Change it
 
 bot = input("What do you want to do?\n1 - Auto views(500)\n2 - Auto hearts\n3 - Auto (FIRST) comments heart\n4 - Auto followers\n5 - Simple reload\n")
 i = 0
@@ -138,7 +136,7 @@ chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome('/path/to/your/chromedriver',chrome_options=chrome_options) #Change it
+driver = webdriver.Chrome('/path/to/your/chromedriver -> CHANGE ME!!! Line 139',chrome_options=chrome_options) #Change it
 
 driver.get("https://vipto.de/")
 
