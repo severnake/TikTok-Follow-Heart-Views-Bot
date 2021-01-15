@@ -2,10 +2,7 @@
 ![View Count](https://counter.gofiber.io/badge/NoNameoN/TikTok-Follow-Heart-Views-Bot/)
 
 # VIDEO FOR BEGINNERS - Windows aviable
-If you are a beginners release a star this repository, follow me and send me a screenshot on the email alessandrogreco@hacari.org, i will send you a video where i'll show you what you must to do for solve the errors and for make it work 
-
-## UPDATE -> NOW IS MORE SIMPLE <- UPDATE
-*To receive updates click on 'watch'*
+If you are a beginners release a star this repository, follow me and send me a screenshot on the email alessandrogreco@hacari.org, i will send you a video where i'll show you what you must to do for solve the errors and for make it work.
 
 ## If you never used Python/Selenium and you don't know how to use my bot click [here](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/issues/5#issuecomment-737041402) i did a free guide
 *If you like my repo please release a star on the top (:*
