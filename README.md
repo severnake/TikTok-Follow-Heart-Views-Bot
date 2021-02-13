@@ -1,6 +1,9 @@
 # TikTok-Views-Bot
 ![View Count](https://counter.gofiber.io/badge/NoNameoN/TikTok-Follow-Heart-Views-Bot/)
 
+# Bug detected with selenium - Work in progress...
+If you want to be notified when we solve click on "Watch"
+
 # VIDEO FOR BEGINNERS - Windows aviable
 If you are a beginners release a star this repository, follow me and send me a screenshot on the email alessandrogreco@hacari.org, i will send you a video where i'll show you what you must to do for solve the errors and for make it work.
 
