@@ -10,7 +10,7 @@ def loop1():
     global i
     sleep(10)
     try:
-        driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[4]/div/button").click()
+        driver.find_element_by_xpath("//*[@id=\"main\"]/div/div[4]/div/button").click()
     except:
         print("You didn't solve the captcha yet. Need to refresh to avoid endless loop.")
         driver.refresh()
@@ -22,17 +22,29 @@ def loop1():
         driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/div/button").click()
         sleep(2)
         driver.find_element_by_xpath("//*[@id=\"c2VuZC9mb2xsb3dlcnNfdGlrdG9V\"]/div[1]/div/form/button").click()
-	sleep(10)
+        sleep(10)
         driver.refresh()
         i += 1
         total = i * 500
         print("Views success delivered! Total", total,"views")
-        sleep(80)
+        total = i * 500
+        print("Views success delivered! Total", total,"views")
+        total = i * 500
+        print("Views success delivered! Total", total,"views")
+        total = i * 500
+        print("Views success delivered! Total", total,"views")
+        total = i * 500
+        print("Views success delivered! Total", total,"views")
+        total = i * 500
+        print("Views success delivered! Total", total,"views")
+        total = i * 500
+        print("Views success delivered! Total", total,"views")
+        sleep(360)
         loop1()
     except:
         print("An error occured. Now will retry again")
         driver.refresh()
-	sleep(20)
+        sleep(20)
         loop1()
 
 def loop2():
@@ -83,7 +95,7 @@ def loop3():
         driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/div/form/ul/li/div/button").click()
         sleep(47)
         driver.refresh()
-	print "Liked :D"
+        print("Liked :D")
         loop3()
     except:
         print("An error occured. Now will retry again")
@@ -127,16 +139,16 @@ def loop5():
 
 print("Author: https://github.com/NoNameoN-A")
 
-vidUrl = " OPEN THE FILE Bot.py AND INSERT YOUR TIKTOK LINK ON LINE 133" #Change it
+vidUrl = "https://www.tiktok.com/@github_nonameon/video/6898692248968400130" #Change it
 
-bot = input("What do you want to do?\n1 - Auto views(500)\n2 - Auto hearts\n3 - Auto (FIRST) comments heart\n4 - Auto followers\n5 - Simple reload\n")
+bot = int(input("What do you want to do?\n1 - Auto views(500)\n2 - Auto hearts\n3 - Auto (FIRST) comments heart\n4 - Auto followers\n5 - Simple reload\n"))
 i = 0
 
 chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome('/path/to/your/chromedriver',chrome_options=chrome_options) #Change it
+driver = webdriver.Chrome(executable_path=r'/home/nonameon/Scaricati/TikTok-Follow-Heart-Views-Bot-main/chromedriver',chrome_options=chrome_options) #Change it
 
 driver.get("https://vipto.de/")
 

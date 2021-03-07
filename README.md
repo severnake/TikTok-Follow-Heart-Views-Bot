@@ -4,6 +4,10 @@
 # VIDEO FOR BEGINNERS - Windows aviable
 If you are a beginners release a star this repository, follow me and send me a screenshot on the email alessandrogreco@hacari.org, i will send you a video where i'll show you what you must to do for solve the errors and for make it work.
 
+# UPDATE 07/Mar/2021
+### The bot work perfectly
+![Bot](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/blob/main/screenshot2.png)
+
 # Bug detected with selenium
 If you have [Inkscape](https://inkscape.org/) Python can go in conflict, i solved uninstalling it.
 
