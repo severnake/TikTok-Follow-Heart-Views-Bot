@@ -27,18 +27,6 @@ def loop1():
         i += 1
         total = i * 500
         print("Views success delivered! Total", total,"views")
-        total = i * 500
-        print("Views success delivered! Total", total,"views")
-        total = i * 500
-        print("Views success delivered! Total", total,"views")
-        total = i * 500
-        print("Views success delivered! Total", total,"views")
-        total = i * 500
-        print("Views success delivered! Total", total,"views")
-        total = i * 500
-        print("Views success delivered! Total", total,"views")
-        total = i * 500
-        print("Views success delivered! Total", total,"views")
         sleep(360)
         loop1()
     except:
