@@ -1,6 +1,8 @@
 # TikTok-Views-Bot
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FNoNameoN-A%2FTikTok-Follow-Heart-Views-Bot&count_bg=%23555555&title_bg=%23555555&icon=tiktok.svg&icon_color=%23E7E7E7&title=Views+Count&edge_flat=false)](https://hits.seeyoufarm.com)
 
+# [INSTAGRAM BOT AVIABLE](https://github.com/NoNameoN-A/Instagram-Views-Bot)
+
 # VIDEO FOR BEGINNERS - Windows aviable
 If you are a beginners release a star this repository, follow me and send me a screenshot on the email alessandrogreco@hacari.org, i will send you a video where i'll show you what you must to do for solve the errors and for make it work.
 
