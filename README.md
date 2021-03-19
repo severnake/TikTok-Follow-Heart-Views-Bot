@@ -3,6 +3,9 @@
 
 # [INSTAGRAM BOT AVIABLE](https://github.com/NoNameoN-A/Instagram-Views-Bot)
 
+# Sponsorship
+Become a [sponsor](https://github.com/sponsors/NoNameoN-A) with 1 dollar :D
+
 # VIDEO FOR BEGINNERS - Windows aviable
 If you are a beginners release a star this repository, follow me and send me a screenshot on the email alessandrogreco@hacari.org, i will send you a video where i'll show you what you must to do for solve the errors and for make it work.
 
@@ -43,8 +46,6 @@ Start the bot with `python Bot.py` *or `python Bot_For_Bugged.py` if you use it*
 # Donation
 |Method|Address|
 |--|--|
-|**PayPal**|https://www.paypal.me/nonameon|
+|**GitHub**|https://github.com/sponsors/NoNameoN-A|
 |**BTC**|3QUVoehMFEnaAtRPHC9aRG85CdaNJx43Yd|
 |**ALGO**|6PYP5RWP547FYH6W2FZMI4A5Q6VWSXI3RE2BIEU5LWKFRVG3VX75YTVNEI|
-|**ETH**|0x07EBAb381b30f164Bb84c94919a8BC9BfF3b5Ec3|
-|**LTC**|MViaTiPCgCd4ff8uvXfpXJsNY4q8pRrRX9| 
