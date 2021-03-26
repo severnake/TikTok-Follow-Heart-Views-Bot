@@ -6,6 +6,10 @@
 # Sponsorship
 Become a [sponsor](https://github.com/sponsors/NoNameoN-A) with 1 dollar :D
 
+# [SPONSOR] IL_DUO_EXE | Twitch
+[![il_duo_exe](https://static-cdn.jtvnw.net/jtv_user_pictures/00f87762-9ab3-4e39-a24c-954c3314ac79-profile_image-70x70.png)](https://www.twitch.tv/videos/950628449?sr=a)
+
+
 # VIDEO FOR BEGINNERS - Windows aviable
 If you are a beginners release a star this repository, follow me and send me a screenshot on the email alessandrogreco@hacari.org, i will send you a video where i'll show you what you must to do for solve the errors and for make it work.
 
