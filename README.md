@@ -11,7 +11,7 @@ Become a [sponsor](https://github.com/sponsors/NoNameoN-A) with 1 dollar :D
 
 
 # VIDEO FOR BEGINNERS - Windows aviable
-If you are a beginners release a star this repository, follow me and send me a screenshot on the email alessandrogreco@hacari.org, i will send you a video where i'll show you what you must to do for solve the errors and for make it work.
+If you need the video tutorial or private assistance contact me at the email alessandrogreco@hacari.org
 
 # UPDATE 07/Mar/2021
 ### The bot work perfectly
