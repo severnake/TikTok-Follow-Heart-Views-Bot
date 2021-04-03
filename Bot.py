@@ -30,7 +30,7 @@ def loop1():
         sleep(360)
         loop1()
     except:
-        print("An error occured. Now will retry again")
+        print("A generic error occurred. Now will retry again")
         driver.refresh()
         sleep(20)
         loop1()
@@ -53,13 +53,13 @@ def loop2():
         sleep(10)
         hearts = driver.find_element_by_xpath('//*[@id="c2VuZE9nb2xsb3dlcnNfdGlrdG9r"]/span').text
         sleep(55)
-        print(hearts," Success delivered!")
+        print(hearts," Success delivered! Thank me with a $ 1 donation on GitHub")
         sleep(100)
         driver.refresh()
         sleep(200)
         loop2()
     except:
-        print("An error occured. Now will retry again")
+        print("A generic error occurred. Now will retry again")
         driver.refresh()
         sleep(355)
         loop2()
@@ -83,10 +83,10 @@ def loop3():
         driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/div/form/ul/li/div/button").click()
         sleep(47)
         driver.refresh()
-        print("Liked :D")
+        print("Success delivered! Thank me with a $ 1 donation on GitHub")
         loop3()
     except:
-        print("An error occured. Now will retry again")
+        print("A generic error occurred. Now will retry again")
         driver.refresh()
         sleep(50)
         loop3()
@@ -108,18 +108,42 @@ def loop4():
         sleep(20)
         driver.find_element_by_xpath("//*[@id=\"c2VuZF9mb2xsb3dlcnNfdGlrdG9r\"]/div[1]/div/form/button").click() #AddFollowers
         sleep(wait_time/3)
-        print("Success delivered")
+        print("Success delivered! Thank me with a $ 1 donation on GitHub")
         sleep(wait_time/3)
         driver.refresh()
         sleep(wait_time/3)
         loop4()
     except:
-        print("Oops!", sys.exc_info()[0], "occurred.")
-        print("An error occurred. Now will retry again")
+        print("A generic error occurred. Now will retry again")
         driver.refresh()
         sleep(wait_time)
         loop4()
+
 def loop5():
+    sleep(20)
+    try:
+        driver.find_element_by_xpath("/html/body/div[4]/div[1]/div[3]/div/div[5]/div/button").click()
+    except:
+        print("You didn't solve the captcha yet. Need to refresh to avoid endless loop.")
+        driver.refresh()
+        loop5()
+    try:
+        sleep(20)
+        driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/div/div/form/div/input").send_keys(vidUrl) # Write
+        sleep(2)
+        driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/div/div/form/div/div/button").click() # Search
+        sleep(20)
+        driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/div/div/div/div[1]/div/form/button").click() # AddShares
+        sleep(60)
+        print("Shares sent! Thank me with a $ 1 donation on GitHub")
+        sleep(1700)
+    except:
+        print("A generic error occurred. Now will retry again")
+        driver.refresh()
+        sleep(300)
+        loop5()
+
+def loop6():
     sleep(1000)
     driver.refresh()
     print("Reload")
@@ -129,7 +153,7 @@ print("Author: https://github.com/NoNameoN-A")
 
 vidUrl = "https://www.tiktok.com/@github_nonameon/video/6898692248968400130" #Change it
 
-bot = int(input("What do you want to do?\n1 - Auto views(500)\n2 - Auto hearts\n3 - Auto (FIRST) comments heart\n4 - Auto followers\n5 - Simple reload\n"))
+bot = int(input("What do you want to do?\n1 - Auto views(500)\n2 - Auto hearts\n3 - Auto (FIRST) comments heart\n4 - Auto followers\n5 - [NEW]Auto Share\n6 - Simple reload\n"))
 i = 0
 
 chrome_options = webdriver.ChromeOptions()
@@ -148,5 +172,9 @@ elif bot == 3:
     loop3()
 elif bot == 4:
     loop4()
-else:
+elif bot == 5:
     loop5()
+elif bot == 6:
+    loop5()
+else:
+    print("You can insert just 1, 2, 3, 4, 5 or 6")
