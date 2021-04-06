@@ -19,7 +19,7 @@ You must download selenium(You can use pip) and https://chromedriver.chromium.or
 
 # Usage
 1) Open Bot.py (or Bot_For_Bugged.py if you use it)
-2) Go to 136 line
+2) Go to 163 line
 3) Change */path/to/your/chromedriver* with your chromdriver path. Use the *.exe* extension if you are using Windows.
 You can close the file...
 
