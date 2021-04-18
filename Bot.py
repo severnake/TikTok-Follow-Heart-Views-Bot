@@ -2,9 +2,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 import pyfiglet
-from os import system
 from time import sleep
-import sys
 
 def loop1():
     global i
