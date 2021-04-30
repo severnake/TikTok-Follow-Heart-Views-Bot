@@ -11,6 +11,7 @@
 <a href="https://github.com/Cosentino108" target="_blank"><img src="https://avatars.githubusercontent.com/u/81426885?v=4" width="35" height="35"></a>
 <a href="https://github.com/mindofcam" target="_blank"><img src="https://avatars.githubusercontent.com/u/82601251?v=4" width="35" height="35"></a>
 <a href="https://github.com/London200" target="_blank"><img src="https://avatars.githubusercontent.com/u/69599253?v=4" width="35" height="35"></a>
+<a href="https://github.com/commander0" target="_blank"><img src="https://avatars.githubusercontent.com/u/24908568?v=4" width="35" height="35"></a>
 
 # VIDEO FOR BEGINNERS - Windows aviable
 If you need the video tutorial or private assistance contact me at the email alessandrogreco@hacari.org
