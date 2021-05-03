@@ -27,10 +27,10 @@ If you have problems you can create an issue on [issues section](https://github.
 You must download selenium(You can use pip) and https://chromedriver.chromium.org/downloads
 
 # Usage
-1) Open Bot.py (or Bot_For_Bugged.py if you use it)
-2) Go to 163 line
-3) Change */path/to/your/chromedriver* with your chromdriver path. Use the *.exe* extension if you are using Windows.
-You can close the file...
+1) Open Bot.py
+2) Insert chromedriver path in 161* line(with .exe if you use Windows)
+3) Insert your TikTok video in 152* line
+4) Save and close
 
 # Start
 Start the bot with `python Bot.py` and insert the Captcha.
