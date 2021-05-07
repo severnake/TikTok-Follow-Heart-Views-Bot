@@ -8,6 +8,7 @@
 ### Become a [sponsor](https://github.com/sponsors/NoNameoN-A) with 1 dollar :D
 ### Current Sponsors
 <a href="https://github.com/Apocalyps2001" target="_blank"><img src="https://avatars.githubusercontent.com/u/82934936?v=4" width="55" height="55"></a></br>
+<a href="https://github.com/zerenity23" target="_blank"><img src="https://avatars.githubusercontent.com/u/76807999?v=4" width="35" height="35"></a>
 <a href="https://github.com/mateo787" target="_blank"><img src="https://avatars.githubusercontent.com/u/70239893?v=4" width="35" height="35"></a>
 <a href="https://github.com/Cosentino108" target="_blank"><img src="https://avatars.githubusercontent.com/u/81426885?v=4" width="35" height="35"></a>
 <a href="https://github.com/mindofcam" target="_blank"><img src="https://avatars.githubusercontent.com/u/82601251?v=4" width="35" height="35"></a>
