@@ -27,7 +27,7 @@
 <a href="https://github.com/7amad208" target="_blank"><img src="https://avatars.githubusercontent.com/u/57397736?v=4" width="35" height="35"></a>
 
 # VIDEO FOR BEGINNERS - Windows aviable
-If you need the video tutorial or private assistance contact me at the email alessandrogreco@hacari.org
+If you need the video tutorial or private assistance contact me at the email [alessandrogreco@inventati.org](mailto:alessandrogreco@inventati.org)
 
 # Problems
 If you have problems you can create an issue on [issues section](https://github.com/NoNameoN-A/TikTok-Follow-Heart-Views-Bot/issues) or contact me in private at the email alessandrogreco@hacari.org
