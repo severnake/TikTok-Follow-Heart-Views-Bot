@@ -15,9 +15,9 @@ def loop1():
         loop1()
     try:
         sleep(2)
-        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/form/div/input").send_keys(vidUrl)
         sleep(1)
-        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/div/div/form/div/div/button").click()
+        driver.find_element_by_xpath("//*[@id=\"sid4\"]/div/form/div/div/button").click()
         sleep(2)
         driver.find_element_by_xpath("//*[@id=\"c2VuZC9mb2xsb3dlcnNfdGlrdG9V\"]/div[1]/div/form/button").click()
         sleep(10)
@@ -72,9 +72,9 @@ def loop3():
         loop2()
     try:
         sleep(2)
-        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/form/div/input").send_keys(vidUrl)
+        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/form/div/input").send_keys(vidUrl)
         sleep(1)
-        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/form/div/div/button").click()
+        driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/form/div/div/button").click()
         sleep(5)
         driver.find_element_by_xpath("/html/body/div[4]/div[4]/div/div/div/div/div[1]/div/form/button").click()
         sleep(5)
@@ -126,10 +126,10 @@ def loop5():
         driver.refresh()
         loop5()
     try:
-        sleep(20)
-        driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/div/div/form/div/input").send_keys(vidUrl) # Write
+        sleep(2000)
+        driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/form/div/input").send_keys(vidUrl) # Write
         sleep(2)
-        driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/div/div/form/div/div/button").click() # Search
+        driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/form/div/div/button").click() # Search
         sleep(20)
         driver.find_element_by_xpath("/html/body/div[4]/div[6]/div/div/div/div/div[1]/div/form/button").click() # AddShares
         sleep(60)
@@ -151,14 +151,14 @@ print("Author: https://github.com/NoNameoN-A")
 
 vidUrl = "https://www.tiktok.com/@github_nonameon/video/6898692248968400130" #Change it
 
-bot = int(input("What do you want to do?\n1 - Auto views(500)\n2 - Auto hearts\n3 - Auto (FIRST) comments heart\n4 - Auto followers\n5 - [NEW]Auto Share\n6 - Simple reload\n"))
+bot = int(input("What do you want to do?\n1 - Auto views(500)\n2 - Auto hearts\n3 - Auto (FIRST) comments heart\n4 - Auto followers\n5 - Auto Share\n6 - Simple reload\n"))
 i = 0
 
 chrome_options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-driver = webdriver.Chrome(executable_path=r'/home/nonameon/Scaricati/TikTok-Follow-Heart-Views-Bot-main/chromedriver',chrome_options=chrome_options) #Change it
+driver = webdriver.Chrome(executable_path=r'/home/nonameon/Desktop/Programmi/TikTok-Follow-Heart-Views-Bot-main/chromedriver',chrome_options=chrome_options) #Change it
 
 driver.get("https://vipto.de/")
 
