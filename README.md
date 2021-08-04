@@ -29,6 +29,7 @@
 <a href="https://github.com/overy0u" target="_blank"><img src="https://avatars.githubusercontent.com/u/35597969?v=4" width="35" height="35"></a>
 <a href="https://github.com/belinho159" target="_blank"><img src="https://avatars.githubusercontent.com/u/55924689?v=4" width="35" height="35"></a>
 <a href="https://github.com/luxi124" target="_blank"><img src="https://avatars.githubusercontent.com/u/87795484?v=4" width="35" height="35"></a>
+<a href="https://github.com/WitchTokTheMusical" target="_blank"><img src="https://avatars.githubusercontent.com/u/88294847?v=4" width="35" height="35"></a>
 
 # VIDEO FOR BEGINNERS - Windows aviable
 If you need the video tutorial or private assistance contact me at the email [alessandrogreco@inventati.org](mailto:alessandrogreco@inventati.org)
